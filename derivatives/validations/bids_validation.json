@@ -1,0 +1,3894 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "UNKNOWN_BIDS_VERSION",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.UnknownVersion",
+        "severity": "ignore"
+      },
+      {
+        "code": "README_FILE_MISSING",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.ReadmeFileMissing",
+        "severity": "ignore"
+      },
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors",
+        "severity": "ignore"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "location": "/dataset_description.json",
+        "severity": "warning",
+        "rule": "rules.dataset_metadata.dataset_description",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M14/sub-M14_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M14_D10_2021-05-21_10-53-03'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D26_2021-06-14_11-32-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D30_2021-06-18_12-45-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D21_2021-06-07_12-08-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D31_2021-06-21_12-07-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D44_2021-07-08_12-42-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D31_2021-06-21_11-23-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D24_2021-06-10_12-39-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D8_2021-05-19_11-42-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D28_2021-06-16_12-26-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D8_2021-05-19_11-03-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D43_2021-07-07_12-22-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D16_2021-05-31_11-22-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D35_2021-06-25_12-02-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D23_2021-06-09_12-01-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D43_2021-07-07_11-47-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D39_2021-07-01_11-45-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D3_2021-05-12_10-44-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D14_2021-05-27_11-12-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D15_2021-05-28_11-51-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D13_2021-05-26_11-31-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D42_2021-07-06_12-02-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D18_2021-06-02_11-44-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D5_2021-05-14_11-31-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D38_2021-06-30_12-35-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D22_2021-06-08_12-38-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D13_2021-05-26_10-51-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D1_2021-05-10_12-20-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D36_2021-06-28_12-37-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D39_2021-07-01_12-28-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D33_2021-06-23_12-22-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D33_2021-06-23_11-38-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D1_2021-05-10_11-45-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D16_2021-05-31_12-01-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D35_2021-06-25_12-41-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D17_2021-06-01_12-47-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D20_2021-06-04_11-38-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D7_2021-05-18_11-44-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D21_2021-06-07_11-29-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D45_2021-07-09_12-15-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D17_2021-06-01_12-12-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D24_2021-06-10_11-48-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D38_2021-06-30_11-50-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D26_2021-06-14_12-22-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D12_2021-05-25_10-24-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D15_2021-05-28_12-29-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D45_2021-07-09_11-31-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D34_2021-06-24_12-08-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D14_2021-05-27_11-46-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D7_2021-05-18_11-05-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D12_2021-05-25_11-03-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D27_2021-06-15_11-35-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D9_2021-05-20_11-24-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D10_2021-05-21_11-28-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D2_2021-05-11_10-48-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D6_2021-05-17_11-01-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D41_2021-07-05_12-37-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D32_2021-06-22_12-22-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D3_2021-05-12_11-21-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D19_2021-06-03_12-00-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D27_2021-06-15_12-21-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D37_2021-06-29_11-50-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D29_2021-06-17_12-30-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D11_2021-05-24_11-44-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D10_2021-05-21_10-53-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D36_2021-06-28_11-50-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D20_2021-06-04_12-20-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D40_2021-07-02_13-32-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D23_2021-06-09_12-41-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D6_2021-05-17_11-36-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D34_2021-06-24_12-48-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D28_2021-06-16_11-35-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D41_2021-07-05_11-52-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D22_2021-06-08_11-54-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D9_2021-05-20_10-48-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D11_2021-05-24_11-09-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D40_2021-07-02_12-44-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D42_2021-07-06_12-38-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D4_2021-05-13_11-10-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D25_2021-06-11_12-36-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D4_2021-05-13_11-45-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D18_2021-06-02_12-27-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D30_2021-06-18_11-55-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D25_2021-06-11_11-58-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D32_2021-06-22_11-38-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D5_2021-05-14_10-51-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D2_2021-05-11_11-22-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D37_2021-06-29_12-33-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D44_2021-07-08_12-02-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D19_2021-06-03_12-45-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M14/ses-M14_D29_2021-06-17_11-40-26/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M12/sub-M12_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M12_D10_2021-05-21_09-39-45'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D7_2021-05-18_09-53-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D6_2021-05-17_09-48-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D22_2021-06-08_11-32-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D18_2021-06-02_11-11-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D3_2021-05-12_09-35-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D15_2021-05-28_11-15-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D25_2021-06-11_10-52-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D7_2021-05-18_10-28-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D14_2021-05-27_09-16-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D27_2021-06-15_10-31-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D27_2021-06-15_11-05-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D13_2021-05-26_10-23-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D16_2021-05-31_10-13-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D29_2021-06-17_11-16-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D13_2021-05-26_09-39-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D5_2021-05-14_10-14-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D3_2021-05-12_10-10-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D25_2021-06-11_11-26-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D17_2021-06-01_10-30-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D14_2021-05-27_09-55-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D30_2021-06-18_11-20-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D1_2021-05-10_11-09-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D4_2021-05-13_10-30-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D16_2021-05-31_10-51-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D17_2021-06-01_11-08-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D24_2021-06-10_11-24-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D6_2021-05-17_10-26-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D12_2021-05-25_09-47-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D18_2021-06-02_10-33-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D2_2021-05-11_10-10-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D21_2021-06-07_10-58-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D23_2021-06-09_11-44-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D11_2021-05-24_10-00-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D10_2021-05-21_09-39-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D30_2021-06-18_10-39-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D8_2021-05-19_10-27-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D20_2021-06-04_11-13-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D2_2021-05-11_09-37-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D21_2021-06-07_10-25-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D4_2021-05-13_09-55-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D10_2021-05-21_10-19-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D8_2021-05-19_09-49-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D11_2021-05-24_10-35-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D26_2021-06-14_10-28-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D9_2021-05-20_10-14-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D20_2021-06-04_10-30-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D28_2021-06-16_10-30-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D15_2021-05-28_10-36-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D19_2021-06-03_11-25-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D23_2021-06-09_10-39-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D1_2021-05-10_10-32-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D9_2021-05-20_09-38-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D29_2021-06-17_10-31-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D28_2021-06-16_11-08-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D22_2021-06-08_10-41-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D24_2021-06-10_10-40-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D19_2021-06-03_10-47-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D5_2021-05-14_09-36-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D12_2021-05-25_10-22-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M12/ses-M12_D26_2021-06-14_11-08-31/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M11/sub-M11_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M11_D10_2021-05-21_09-41-01'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D17_2021-06-01_09-57-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D9_2021-05-20_10-16-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D11_2021-05-24_10-00-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D42_2021-07-06_11-30-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D2_2021-05-11_10-12-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D26_2021-06-14_10-34-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D6_2021-05-17_08-40-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D16_2021-05-31_09-41-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D15_2021-05-28_10-05-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D31_2021-06-21_10-18-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D8_2021-05-19_09-50-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D2_2021-05-11_09-35-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D30_2021-06-18_10-06-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D26_2021-06-14_09-56-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D32_2021-06-22_10-32-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D12_2021-05-25_09-12-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D15_2021-05-28_10-42-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D34_2021-06-24_11-52-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D42_2021-07-06_12-07-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D6_2021-05-17_09-17-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D12_2021-05-25_09-49-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D30_2021-06-18_10-46-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D18_2021-06-02_09-56-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D35_2021-06-25_12-02-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D1_2021-05-10_10-34-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D19_2021-06-03_10-11-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D25_2021-06-11_10-55-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D24_2021-06-10_10-07-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D11_2021-05-24_10-37-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D13_2021-05-26_09-46-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D21_2021-06-07_10-26-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D43_2021-07-07_11-51-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D8_2021-05-19_10-29-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D27_2021-06-15_09-59-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D45_2021-07-09_10-58-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D9_2021-05-20_09-39-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D14_2021-05-27_10-34-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D22_2021-06-08_10-55-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D39_2021-07-01_11-47-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D13_2021-05-26_09-08-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D44_2021-07-08_12-03-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D28_2021-06-16_09-57-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D1_2021-05-10_11-11-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D7_2021-05-18_10-28-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D21_2021-06-07_09-46-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D14_2021-05-27_09-56-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D5_2021-05-14_09-38-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D18_2021-06-02_10-36-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D24_2021-06-10_10-45-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D33_2021-06-23_11-08-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D31_2021-06-21_10-57-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D36_2021-06-28_11-19-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D29_2021-06-17_10-35-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D39_2021-07-01_11-12-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D20_2021-06-04_09-58-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D37_2021-06-29_11-50-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D40_2021-07-02_12-11-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D4_2021-05-13_10-32-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D35_2021-06-25_11-26-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D16_2021-05-31_10-21-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D38_2021-06-30_11-54-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D32_2021-06-22_11-08-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D41_2021-07-05_11-19-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D29_2021-06-17_09-57-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D41_2021-07-05_12-05-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D40_2021-07-02_12-58-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D45_2021-07-09_11-39-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D3_2021-05-12_10-12-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D28_2021-06-16_10-34-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D4_2021-05-13_09-56-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D38_2021-06-30_11-18-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D7_2021-05-18_09-51-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D34_2021-06-24_11-06-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D20_2021-06-04_10-38-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D43_2021-07-07_11-15-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D10_2021-05-21_09-41-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D33_2021-06-23_10-32-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D23_2021-06-09_10-44-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D37_2021-06-29_11-04-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D36_2021-06-28_12-04-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D23_2021-06-09_10-07-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D44_2021-07-08_11-24-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D25_2021-06-11_10-20-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D5_2021-05-14_10-17-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D3_2021-05-12_09-37-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D22_2021-06-08_10-09-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D17_2021-06-01_10-36-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D10_2021-05-21_10-17-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D27_2021-06-15_10-33-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M11/ses-M11_D19_2021-06-03_10-50-41/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M2/sub-M2_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M2_D10_2020-08-14_15-45-58'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D24_2020-09-03_15-59-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D30_2020-09-11_16-47-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D8_2020-08-12_15-43-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D18_2020-08-26_15-41-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D28_2020-09-09_16-45-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D18_2020-08-26_15-23-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D7_2020-08-11_15-24-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D29_2020-09-10_16-01-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D3_2020-08-05_15-18-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D19_2020-08-27_16-16-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D27_2020-09-08_15-46-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D25_2020-09-04_16-48-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D13_2020-08-19_15-03-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D21_2020-08-31_16-54-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D26_2020-09-07_16-22-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D6_2020-08-10_15-58-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D4_2020-08-06_15-16-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D10_2020-08-14_15-45-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D27_2020-09-08_16-29-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D3_2020-08-05_15-59-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D17_2020-08-25_16-29-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D1_2020-08-03_16-16-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D1_2020-08-03_15-38-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D26_2020-09-07_15-33-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D14_2020-08-20_16-42-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D6_2020-08-10_15-07-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D20_2020-08-28_15-56-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D16_2020-08-24_15-13-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D22_2020-09-01_16-48-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D11_2020-08-17_15-39-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D17_2020-08-25_15-44-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D19_2020-08-27_15-38-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D2_2020-08-04_15-53-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D12_2020-08-18_15-14-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D15_2020-08-21_17-00-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D2_2020-08-04_15-13-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D22_2020-09-01_15-57-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D16_2020-08-24_15-50-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D25_2020-09-04_15-56-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D23_2020-09-02_16-57-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D28_2020-09-09_15-55-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D23_2020-09-02_16-02-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D30_2020-09-11_16-00-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D13_2020-08-19_15-56-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D9_2020-08-13_15-53-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D20_2020-08-28_15-15-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D15_2020-08-21_16-16-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D24_2020-09-03_16-50-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D21_2020-08-31_15-55-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M2/ses-M2_D29_2020-09-10_16-52-44/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M1/sub-M1_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M1_D10_2020-08-14_15-10-02'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D17_2020-08-25_15-53-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D5_2020-08-07_14-27-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D1_2020-08-03_16-49-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D24_2020-09-03_17-24-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D11_2020-08-17_14-57-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D7_2020-08-11_15-37-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D8_2020-08-12_15-06-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D9_2020-08-13_15-16-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D38_2020-09-23_15-24-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D6_2020-08-10_15-01-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D37_2020-09-22_15-26-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D10_2020-08-14_15-54-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D14_2020-08-20_16-40-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D27_2020-09-08_15-58-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D39_2020-09-24_15-34-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D9_2020-08-13_16-05-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D29_2020-09-10_16-17-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D20_2020-08-28_15-13-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D25_2020-09-04_16-05-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D34_2020-09-17_15-37-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D6_2020-08-10_14-17-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D32_2020-09-15_16-33-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D3_2020-08-05_16-43-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D8_2020-08-12_15-56-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D1_2020-08-03_16-11-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D11_2020-08-17_15-51-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D41_2020-10-08_17-27-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D21_2020-08-31_16-05-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D33_2020-09-16_15-43-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D7_2020-08-11_14-49-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D3_2020-08-05_14-42-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D4_2020-08-06_15-26-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D10_2020-08-14_15-10-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D5_2020-08-07_15-07-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D26_2020-09-07_16-58-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D40_2020-09-25_15-31-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D18_2020-08-26_16-13-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D19_2020-08-27_15-34-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D16_2020-08-24_16-26-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D4_2020-08-06_14-42-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D15_2020-08-21_15-36-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D31_2020-09-14_17-07-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D2_2020-08-04_14-36-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D13_2020-08-19_15-11-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D35_2020-09-18_15-34-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D36_2020-09-21_15-08-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D12_2020-08-18_15-24-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D23_2020-09-02_15-57-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D28_2020-09-09_16-06-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D30_2020-09-11_16-15-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D2_2020-08-04_15-15-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M1/ses-M1_D22_2020-09-01_18-16-14/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M10/sub-M10_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M10_D10_2021-05-21_08-25-23'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D21_2021-06-07_09-15-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D20_2021-06-04_09-26-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D8_2021-05-19_09-14-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D9_2021-05-20_09-05-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D5_2021-05-14_08-24-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D12_2021-05-25_08-37-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D4_2021-05-13_08-41-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D9_2021-05-20_08-23-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D23_2021-06-09_09-37-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D14_2021-05-27_09-12-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D5_2021-05-14_08-59-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D25_2021-06-11_10-26-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D13_2021-05-26_09-10-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D17_2021-06-01_10-03-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D7_2021-05-18_09-14-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D22_2021-06-08_10-25-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D16_2021-05-31_09-42-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D2_2021-05-11_08-25-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D25_2021-06-11_09-47-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D13_2021-05-26_08-34-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D14_2021-05-27_08-35-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D1_2021-05-10_09-18-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D20_2021-06-04_10-03-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D6_2021-05-17_10-29-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D18_2021-06-02_09-20-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D10_2021-05-21_09-05-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D24_2021-06-10_09-33-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D2_2021-05-11_09-00-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D10_2021-05-21_08-25-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D3_2021-05-12_08-59-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D15_2021-05-28_10-06-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D8_2021-05-19_08-35-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D17_2021-06-01_09-19-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D24_2021-06-10_10-13-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D6_2021-05-17_09-52-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D19_2021-06-03_10-14-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D22_2021-06-08_09-40-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D4_2021-05-13_09-20-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D18_2021-06-02_09-58-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D19_2021-06-03_09-38-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D16_2021-05-31_09-04-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D11_2021-05-24_08-41-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D15_2021-05-28_09-20-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D21_2021-06-07_09-52-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D3_2021-05-12_08-24-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D12_2021-05-25_09-16-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D1_2021-05-10_09-55-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D7_2021-05-18_08-33-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D23_2021-06-09_10-10-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M10/ses-M10_D11_2021-05-24_09-24-41/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M7/sub-M7_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M7_D10_2020-11-09_16-16-06'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D23_2020-11-28_16-17-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D30_2020-12-07_16-04-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D8_2020-11-07_16-55-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D19_2020-11-22_16-38-21/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D35_2020-12-14_15-48-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D20_2020-11-23_15-47-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D6_2020-11-05_17-09-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D13_2020-11-14_16-14-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D28_2020-12-05_16-50-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D1_2020-10-29_15-44-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D16_2020-11-19_15-35-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D26_2020-12-03_16-38-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D24_2020-11-29_16-51-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D15_2020-11-16_16-49-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D16_2020-11-19_15-01-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D5_2020-11-02_15-52-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D6_2020-11-05_16-26-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D14_2020-11-15_16-14-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D11_2020-11-12_16-22-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D4_2020-11-01_16-41-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D34_2020-12-13_15-49-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D33_2020-12-12_15-39-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D17_2020-11-20_16-50-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D12_2020-11-13_16-55-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D27_2020-12-04_16-24-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D10_2020-11-09_16-52-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D22_2020-11-27_16-11-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D19_2020-11-22_16-06-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D32_2020-12-11_15-40-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D28_2020-12-05_16-15-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D12_2020-11-13_16-20-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D5_2020-11-02_16-30-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D11_2020-11-12_16-54-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D25_2020-11-30_17-02-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D1_2020-10-29_16-20-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D22_2020-11-27_16-49-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D9_2020-11-08_17-26-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D4_2020-11-01_16-05-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D17_2020-11-20_16-15-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D29_2020-12-06_16-26-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D23_2020-11-28_16-57-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D8_2020-11-07_16-24-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D24_2020-11-29_16-15-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D7_2020-11-06_16-14-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D9_2020-11-08_16-29-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D7_2020-11-06_16-47-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D21_2020-11-26_16-09-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D3_2020-10-31_16-01-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D3_2020-10-31_16-40-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D25_2020-11-30_16-24-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D27_2020-12-04_16-59-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D15_2020-11-16_16-16-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D14_2020-11-15_16-47-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D21_2020-11-26_16-47-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D31_2020-12-10_15-52-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D29_2020-12-06_17-01-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D13_2020-11-14_16-47-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D20_2020-11-23_16-22-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D26_2020-12-03_16-01-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M7/ses-M7_D10_2020-11-09_16-16-06/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M13/sub-M13_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M13_D10_2021-05-21_10-55-46'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D1_2021-05-10_11-47-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D12_2021-05-25_11-35-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D14_2021-05-27_10-36-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D25_2021-06-11_11-25-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D29_2021-06-17_11-50-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D17_2021-06-01_11-45-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D8_2021-05-19_11-44-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D26_2021-06-14_11-43-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D29_2021-06-17_11-05-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D19_2021-06-03_11-27-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D7_2021-05-18_11-47-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D27_2021-06-15_11-02-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D5_2021-05-14_11-34-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D9_2021-05-20_10-51-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D24_2021-06-10_11-13-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D28_2021-06-16_11-45-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D27_2021-06-15_11-43-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D15_2021-05-28_11-12-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D3_2021-05-12_11-24-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D11_2021-05-24_11-11-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D22_2021-06-08_11-17-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D19_2021-06-03_12-03-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D30_2021-06-18_11-22-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D33_2021-06-23_11-04-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D34_2021-06-24_10-34-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D28_2021-06-16_11-02-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D10_2021-05-21_10-55-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D13_2021-05-26_10-56-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D5_2021-05-14_10-53-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D14_2021-05-27_11-12-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D6_2021-05-17_11-39-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D12_2021-05-25_12-23-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D18_2021-06-02_11-11-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D1_2021-05-10_12-23-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D26_2021-06-14_11-00-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D23_2021-06-09_11-17-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D21_2021-06-07_10-57-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D21_2021-06-07_11-33-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D22_2021-06-08_12-04-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D4_2021-05-13_11-07-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D16_2021-05-31_11-26-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D9_2021-05-20_11-26-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D20_2021-06-04_11-48-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D25_2021-06-11_12-03-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D8_2021-05-19_11-08-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D2_2021-05-11_10-49-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D4_2021-05-13_11-48-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D18_2021-06-02_11-50-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D13_2021-05-26_10-20-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D32_2021-06-22_11-03-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D3_2021-05-12_10-45-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D17_2021-06-01_11-06-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D2_2021-05-11_11-25-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D7_2021-05-18_11-08-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D16_2021-05-31_10-48-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D20_2021-06-04_11-02-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D23_2021-06-09_12-04-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D31_2021-06-21_10-52-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D6_2021-05-17_11-05-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D15_2021-05-28_11-54-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M13/ses-M13_D24_2021-06-10_12-01-54/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M4/sub-M4_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M4_D10_2020-11-09_15-04-26'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D21_2020-11-26_16-14-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D18_2020-11-21_15-41-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D13_2020-11-14_15-31-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D4_2020-11-01_14-53-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D1_2020-10-29_14-58-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D14_2020-11-15_14-58-40/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D7_2020-11-06_14-58-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D5_2020-11-02_15-23-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D14_2020-11-15_15-34-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D8_2020-11-07_15-47-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D25_2020-11-30_15-49-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D17_2020-11-20_15-03-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D8_2020-11-07_15-13-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D24_2020-11-29_16-19-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D30_2020-12-07_15-27-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D19_2020-11-22_15-21-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D21_2020-11-26_15-33-37/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D11_2020-11-12_15-03-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D6_2020-11-05_15-13-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D7_2020-11-06_15-39-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D27_2020-12-04_16-28-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D13_2020-11-14_14-58-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D26_2020-12-03_16-05-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D17_2020-11-20_15-37-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D10_2020-11-09_15-04-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D25_2020-11-30_16-30-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D22_2020-11-27_15-38-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D29_2020-12-06_16-31-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D28_2020-12-05_16-18-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D10_2020-11-09_15-41-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D9_2020-11-08_15-18-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D5_2020-11-02_14-45-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D9_2020-11-08_15-52-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D12_2020-11-13_15-44-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D23_2020-11-28_15-45-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D15_2020-11-16_14-59-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D20_2020-11-23_15-08-48/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D15_2020-11-16_15-34-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D28_2020-12-05_15-44-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D23_2020-11-28_16-21-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D11_2020-11-12_15-38-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D1_2020-10-29_14-21-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D26_2020-12-03_15-28-32/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D27_2020-12-04_15-49-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D24_2020-11-29_15-42-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D22_2020-11-27_16-16-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D18_2020-11-21_15-04-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D3_2020-10-31_15-22-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D19_2020-11-22_16-00-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D2_2020-10-30_16-01-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D4_2020-11-01_15-30-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D16_2020-11-19_14-27-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D6_2020-11-05_15-49-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D29_2020-12-06_15-53-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D12_2020-11-13_15-08-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D16_2020-11-19_13-52-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D2_2020-10-30_15-23-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D20_2020-11-23_15-36-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M4/ses-M4_D3_2020-10-31_14-46-29/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M6/sub-M6_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M6_D10_2020-11-09_15-44-20'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D18_2020-11-21_16-52-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D16_2020-11-19_14-30-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D17_2020-11-20_15-40-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D13_2020-11-14_16-13-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D24_2020-11-29_17-08-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D23_2020-11-28_17-01-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D3_2020-10-31_16-04-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D11_2020-11-12_16-15-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D7_2020-11-06_16-11-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D17_2020-11-20_16-12-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D22_2020-11-27_16-59-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D8_2020-11-07_16-23-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D4_2020-11-01_16-08-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D1_2020-10-29_15-04-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D6_2020-11-05_15-50-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D3_2020-10-31_15-27-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D11_2020-11-12_15-39-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D4_2020-11-01_15-27-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D26_2020-12-03_17-14-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D25_2020-11-30_17-03-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D16_2020-11-19_15-01-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D5_2020-11-02_15-56-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D8_2020-11-07_15-49-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D22_2020-11-27_17-36-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D9_2020-11-08_16-55-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D9_2020-11-08_15-53-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D24_2020-11-29_17-40-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D15_2020-11-16_16-12-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D23_2020-11-28_17-40-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D25_2020-11-30_17-38-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D1_2020-10-29_15-41-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D12_2020-11-13_16-21-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D18_2020-11-21_17-21-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D14_2020-11-15_15-37-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D10_2020-11-09_16-19-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D5_2020-11-02_15-18-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D13_2020-11-14_15-40-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D7_2020-11-06_15-37-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D6_2020-11-05_16-23-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D14_2020-11-15_16-11-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D12_2020-11-13_15-44-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D15_2020-11-16_15-36-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D26_2020-12-03_16-42-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M6/ses-M6_D10_2020-11-09_15-44-20/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M3/sub-M3_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M3_D10_2020-11-09_14-28-59'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D16_2020-11-19_13-48-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D3_2020-10-31_14-05-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D22_2020-11-27_15-42-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D30_2020-12-07_15-24-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D13_2020-11-14_14-25-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D10_2020-11-09_15-07-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D6_2020-11-05_14-37-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D24_2020-11-29_15-08-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D8_2020-11-07_15-11-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D18_2020-11-21_15-08-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D7_2020-11-06_15-01-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D24_2020-11-29_15-45-06/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D6_2020-11-05_15-13-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D23_2020-11-28_15-13-28/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D26_2020-12-03_14-51-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D8_2020-11-07_14-39-22/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D32_2020-12-11_15-06-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D14_2020-11-15_14-22-52/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D21_2020-11-26_15-36-57/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D26_2020-12-03_15-32-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D29_2020-12-06_15-20-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D15_2020-11-16_14-21-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D21_2020-11-26_14-59-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D25_2020-11-30_15-58-25/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D12_2020-11-13_14-27-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D22_2020-11-27_15-01-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D27_2020-12-04_15-10-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D28_2020-12-05_15-39-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D28_2020-12-05_15-05-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D19_2020-11-22_14-48-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D5_2020-11-02_14-10-23/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D4_2020-11-01_14-48-24/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D1_2020-10-29_13-45-02/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D15_2020-11-16_14-56-27/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D16_2020-11-19_13-12-12/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D9_2020-11-08_14-37-47/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D1_2020-10-29_14-26-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D20_2020-11-23_15-06-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D4_2020-11-01_14-12-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D34_2020-12-13_15-16-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D18_2020-11-21_14-29-49/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D31_2020-12-10_15-13-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D35_2020-12-14_15-15-30/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D11_2020-11-12_15-02-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D10_2020-11-09_14-28-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D25_2020-11-30_15-13-15/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D3_2020-10-31_14-44-14/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D19_2020-11-22_15-25-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D2_2020-10-30_14-43-08/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D2_2020-10-30_15-20-11/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D14_2020-11-15_14-57-55/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D20_2020-11-23_14-32-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D33_2020-12-12_15-02-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D13_2020-11-14_14-56-50/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D5_2020-11-02_14-50-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D17_2020-11-20_14-23-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D11_2020-11-12_14-26-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D17_2020-11-20_15-01-35/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D12_2020-11-13_15-11-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D30_2020-12-07_14-55-41/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D9_2020-11-08_15-11-58/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D27_2020-12-04_15-51-45/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D7_2020-11-06_14-22-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M3/ses-M3_D23_2020-11-28_15-48-51/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-M15/sub-M15_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-M15_D10_2021-05-21_11-30-51'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D14_2021-05-27_11-44-00/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D38_2021-06-30_12-56-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D29_2021-06-17_12-32-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D31_2021-06-21_11-56-19/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D15_2021-05-28_12-28-33/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D32_2021-06-22_13-09-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D42_2021-07-06_12-59-42/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D37_2021-06-29_12-58-26/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D40_2021-07-02_13-16-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D21_2021-06-07_12-42-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D13_2021-05-26_11-26-56/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D16_2021-05-31_11-58-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D3_2021-05-12_12-31-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D21_2021-06-07_12-00-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D27_2021-06-15_12-09-18/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D34_2021-06-24_13-04-17/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D30_2021-06-18_12-29-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D5_2021-05-14_12-06-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D10_2021-05-21_12-12-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D33_2021-06-23_13-07-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D11_2021-05-24_11-46-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D1_2021-05-10_12-53-16/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D29_2021-06-17_13-12-53/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D35_2021-06-25_13-02-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D6_2021-05-17_12-11-44/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D26_2021-06-14_12-58-39/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D17_2021-06-01_12-44-43/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D3_2021-05-12_11-56-20/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D9_2021-05-20_11-59-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D10_2021-05-21_11-30-51/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D5_2021-05-14_12-46-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D2_2021-05-11_11-58-13/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D7_2021-05-18_12-59-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D28_2021-06-16_12-07-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D7_2021-05-18_12-21-54/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D17_2021-06-01_13-20-09/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D12_2021-05-25_11-49-36/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D2_2021-05-11_12-32-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D4_2021-05-13_12-21-05/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D11_2021-05-24_12-36-01/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D12_2021-05-25_11-03-38/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D26_2021-06-14_12-04-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D39_2021-07-01_12-47-46/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D27_2021-06-15_13-06-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D6_2021-05-17_12-47-59/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D14_2021-05-27_12-20-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D4_2021-05-13_12-57-31/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D28_2021-06-16_13-03-29/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D8_2021-05-19_12-53-04/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D8_2021-05-19_12-17-10/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D9_2021-05-20_12-37-07/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D16_2021-05-31_12-40-03/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D13_2021-05-26_12-05-34/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-M15/ses-M15_D36_2021-06-28_12-22-24/",
+        "severity": "error"
+      }
+    ],
+    "codeMessages": {
+      "UNKNOWN_BIDS_VERSION": "The BIDSVersion field of 'dataset_description.json' does not match a known release.\nThe BIDS Schema used for validation may be out of date.\n",
+      "README_FILE_MISSING": "The recommended file /README is missing.\nSee Section 03 (Modality agnostic files) of the BIDS specification.\n",
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_VALUE_INCORRECT_TYPE": "A value in a column did not match the acceptable type for that column headers specified format.",
+      "NOT_INCLUDED": "Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a \".bidsignore\" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "M14",
+      "M12",
+      "M11",
+      "M2",
+      "M1",
+      "M10",
+      "M7",
+      "M13",
+      "M4",
+      "M6",
+      "M3",
+      "M15"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "M1",
+        "sex": "M"
+      },
+      {
+        "participantId": "M10",
+        "sex": "M"
+      },
+      {
+        "participantId": "M11",
+        "sex": "M"
+      },
+      {
+        "participantId": "M12",
+        "sex": "M"
+      },
+      {
+        "participantId": "M13",
+        "sex": "M"
+      },
+      {
+        "participantId": "M14",
+        "sex": "M"
+      },
+      {
+        "participantId": "M15",
+        "sex": "M"
+      },
+      {
+        "participantId": "M2",
+        "sex": "M"
+      },
+      {
+        "participantId": "M3",
+        "sex": "M"
+      },
+      {
+        "participantId": "M4",
+        "sex": "M"
+      },
+      {
+        "participantId": "M6",
+        "sex": "M"
+      },
+      {
+        "participantId": "M7",
+        "sex": "M"
+      }
+    ],
+    "tasks": [],
+    "modalities": [],
+    "secondaryModalities": [],
+    "totalFiles": 761,
+    "size": 5809553,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [],
+    "schemaVersion": "1.3.0-dev"
+  }
+}
