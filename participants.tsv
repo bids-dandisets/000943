@@ -1,13 +1,13 @@
-participant_id	species	sex	strain
-sub-M1	Mus musculus	M	C57BL/6J
-sub-M10	Mus musculus	M	C57BL/6J
-sub-M11	Mus musculus	M	C57BL/6J
-sub-M12	Mus musculus	M	C57BL/6J
-sub-M13	Mus musculus	M	C57BL/6J
-sub-M14	Mus musculus	M	C57BL/6J
-sub-M15	Mus musculus	M	C57BL/6J
-sub-M2	Mus musculus	M	C57BL/6J
-sub-M3	Mus musculus	M	C57BL/6J
-sub-M4	Mus musculus	M	C57BL/6J
-sub-M6	Mus musculus	M	C57BL/6J
-sub-M7	Mus musculus	M	C57BL/6J
+participant_id	original_participant_id	species	sex	strain
+sub-M1	sub-M1	Mus musculus	M	C57BL/6J
+sub-M10	sub-M10	Mus musculus	M	C57BL/6J
+sub-M11	sub-M11	Mus musculus	M	C57BL/6J
+sub-M12	sub-M12	Mus musculus	M	C57BL/6J
+sub-M13	sub-M13	Mus musculus	M	C57BL/6J
+sub-M14	sub-M14	Mus musculus	M	C57BL/6J
+sub-M15	sub-M15	Mus musculus	M	C57BL/6J
+sub-M2	sub-M2	Mus musculus	M	C57BL/6J
+sub-M3	sub-M3	Mus musculus	M	C57BL/6J
+sub-M4	sub-M4	Mus musculus	M	C57BL/6J
+sub-M6	sub-M6	Mus musculus	M	C57BL/6J
+sub-M7	sub-M7	Mus musculus	M	C57BL/6J
