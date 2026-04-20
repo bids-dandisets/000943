@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "This dataset contains electrophysiological recordings alongside the synchronised behavioural data for mice running in an open field and virtual linear track environments. Movable tetrodes were targeted to the medial entorhinal cortex. Further details can be found here (https://doi.org/10.7554/eLife.89356.2).",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Clark, Harry"
+    ],
     "License": "CC0-1.0",
     "GeneratedBy": [
         {
